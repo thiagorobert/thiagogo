@@ -11,8 +11,8 @@ import (
  
 var (
     Bucket         = "thiagogo-s3-bucket" // Download from this bucket
-    Prefix         = "logs/"    // Using this key prefix
-    LocalDirectory = "/s3data"   // Into this directory
+    Prefix         = ""    // Using this key prefix
+    LocalDirectory = "/tmp/s3data"   // Into this directory
 )
  
 func main() {
