@@ -19,6 +19,6 @@ func main() {
     fmt.Printf("starting server at port " + strconv.Itoa(port) + "\n")
     fmt.Printf(thiagogo_util.Reverse("Thiago Robert"))
     http.HandleFunc("/", hello)
-    // http.ListenAndServe(":" + strconv.Itoa(port), nil)
+    http.ListenAndServe(":" + strconv.Itoa(port), nil)
 }
 
